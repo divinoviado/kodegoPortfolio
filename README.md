@@ -1,1 +1,1 @@
-# kodegoPortfolio
+# kodegoportfolio
