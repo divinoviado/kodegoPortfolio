@@ -9,7 +9,7 @@
 }
 
 :root {
-    --bg1-color: #2a2a2a;
+    --bg-color: #2a2a2a;
     --second-bg-color: #202020;
     --text-color: #fff;
     --second-text-color: #ccc;
@@ -21,7 +21,7 @@
 }
 
 body {
-    background: var(--bg1-color);
+    background: var(--bg-color);
     color: var(--text-color);
 }
 
@@ -494,7 +494,7 @@ header.sticky {
 }
 
 .end {
-    padding: 20px 15%;
+    padding: 100px 15%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -548,6 +548,10 @@ header.sticky {
     }
     .home {
         height: 87vh;
+    }
+
+    .portfolioContent .row img {
+        grid-template-columns: repeat(auto-fit, minmax(350px, auto));
     }
 }
 
@@ -603,7 +607,11 @@ header.sticky {
     .navlist a:active {
         color: var(--text-color);
     }
-    .navlist.open{
+    .navlist.open {
         top: 100%;
+    }
+    
+    .contact {
+        margin-top: 220px;
     }
 }

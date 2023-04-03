@@ -3,20 +3,20 @@ window.addEventListener ("scroll", function() {
     header.classList.toggle ("sticky", window.scrollY > 100);
 });
 
-let menu = document.querySelector("menu");
-let navlist = document.querySelector('.navlist');
+// let menu = document.querySelector("menu");
+// let navlist = document.querySelector('.navlist');
 
-menu.onclick = () => {
-    menu.classList.toggle('bx-x');
-    navlist.classList.toggle('open');
-};
+// menu.onclick = () => {
+//     menu.classList.toggle('bx-menu');
+//     navlist.classList.toggle('open');
+// };
 
-window.onscroll = () => {
-    menu.classList.remove('bx-x');
-    navlist.classList.remove('open');
-}
+// window.onscroll = () => {
+//     menu.classList.remove('bx-menu');
+//     navlist.classList.remove('open');
+// }
 
-/*
+
 let menuBtn = document.getElementById("menuBtn");
 let sideNav = document.getElementById("sideNav");
 let menu = document.getElementById("menu");
@@ -29,4 +29,3 @@ menuBtn.onclick = function(){
         sideNav.style.right = "-250px";
     }
 }
-*/
